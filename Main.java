@@ -1,4 +1,4 @@
-public class Main {
+apublic class Main {
     public static void main(String[] args) {
         Produto produto = new Produto(100.0); // Preço original
 
@@ -14,4 +14,9 @@ public class Main {
         produto.setStrategy(new SemDesconto());
         System.out.println("Preço sem desconto: " + produto.calcularPreco());
     }
+
+	@Override
+	public String toString() {
+		return "Main []";
+	}
 }
