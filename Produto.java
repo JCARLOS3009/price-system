@@ -1,3 +1,4 @@
+// Produto.java
 public class Produto {
     private double precoOriginal;
     private Strategy strategy;
